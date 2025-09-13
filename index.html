@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COIN GAME</title>
+
+        <link rel="icon" href="./img/JGK1.png" type="image/png">
+        <link rel="stylesheet" href="game1.css"/>
+    </head>  
+    <body>   
+        <div class="Succ">
+            <label class="lev1">LEVEL COMPLETED</label><br>
+            <div class="b1 statButton" onclick="starting()">Start Game</div>
+        </div>
+        <div class="par1">
+            <div class="Scdiv">
+                <p>Score</p>
+                <label class="ScoreVal">0</label>
+            </div>
+            <div class="GameArea">
+                <img class="imgbc" src="./img/gamebc1.jpg"/>
+                <img class="imgm" src="./img/man.webp"/> 
+                <img class="imgS" src="https://assets.leetcode.com/static_assets/public/images/coin.gif"/>
+            </div>
+            <div class="Control_Buttons">
+                <div class="left b1" onclick="leftfun()">LEFT</div>
+                <div class="twoB">
+                    <div class="up b1" onclick="upfun()">UP</div><br>
+                    <div class="down b1" onclick="downfun()">DOWN</div>
+                </div>
+                <div class="right b1" onclick="rightfun()">RIGHT</div>
+            </div>
+        </div>
+        <script src="game1.js"></script>
+    </body>
+</html>
